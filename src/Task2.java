@@ -17,6 +17,7 @@ public class Task2 {
 
             userInt = in.nextInt();
             System.out.println("You input an integer: " + userInt);
+            System.exit(0);
 
         }
 
@@ -24,6 +25,7 @@ public class Task2 {
 
             userDouble = in.nextDouble();
             System.out.println("You input a double: " + userDouble);
+            System.exit(0);
 
         }
 
@@ -31,6 +33,7 @@ public class Task2 {
 
             trash = in.nextLine();
             System.out.println("You gave me an incorrect value: " + trash);
+            System.exit(0);
 
         }
 
